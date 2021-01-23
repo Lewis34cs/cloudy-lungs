@@ -634,7 +634,7 @@ random_image(X_train, y_train)
     
 
 
-![png](output_56_1.png)
+![png](images/output_56_1.png)
 
 
 
@@ -666,7 +666,7 @@ count_class(y_train)
 ```
 
 
-![png](output_58_0.png)
+![png](images/output_58_0.png)
 
 
 Above we can see that within our dataset, our classes are not balanced. Here we see that there are more images classified as having '**pneumonia**' when compared to those classifed as '**normal**'. This is not uncommon in the medical field, and there are some techniques that we can utilize to help prevent this imbalance from skewing our results. 
@@ -967,23 +967,23 @@ history01 = fit_cnn(cnn01, X_train, y_train, X_val, y_val, X_test, y_test, epoch
     
 
 
-![png](output_75_1.png)
+![png](images/output_75_1.png)
 
 
 
-![png](output_75_2.png)
+![png](images/output_75_2.png)
 
 
 
-![png](output_75_3.png)
+![png](images/output_75_3.png)
 
 
 
-![png](output_75_4.png)
+![png](images/output_75_4.png)
 
 
 
-![png](output_75_5.png)
+![png](images/output_75_5.png)
 
 
     ------------------------------------------------------------
@@ -1103,7 +1103,7 @@ display_images(pic_folder, 8)
 ```
 
 
-![png](output_88_0.png)
+![png](images/output_88_0.png)
 
 
 Above we can physically see that our aug_train_datagen is augmenting our pictures using the parameters we defined in our ImageDataGenerator. 
@@ -1228,23 +1228,23 @@ history02 = fit_cnn_gen(cnn02, X_train, y_train, X_val, y_val, X_test, y_test,
     
 
 
-![png](output_92_1.png)
+![png](images/output_92_1.png)
 
 
 
-![png](output_92_2.png)
+![png](images/output_92_2.png)
 
 
 
-![png](output_92_3.png)
+![png](images/output_92_3.png)
 
 
 
-![png](output_92_4.png)
+![png](images/output_92_4.png)
 
 
 
-![png](output_92_5.png)
+![png](images/output_92_5.png)
 
 
     ------------------------------------------------------------
@@ -1407,23 +1407,23 @@ history03 = fit_cnn_gen(cnn03, X_train, y_train, X_val, y_val, X_test, y_test,
     
 
 
-![png](output_101_1.png)
+![png](images/output_101_1.png)
 
 
 
-![png](output_101_2.png)
+![png](images/output_101_2.png)
 
 
 
-![png](output_101_3.png)
+![png](images/output_101_3.png)
 
 
 
-![png](output_101_4.png)
+![png](images/output_101_4.png)
 
 
 
-![png](output_101_5.png)
+![png](images/output_101_5.png)
 
 
     ------------------------------------------------------------
@@ -1555,23 +1555,23 @@ history04 = fit_cnn_gen(cnn04, X_train, y_train, X_val, y_val, X_test, y_test,
     
 
 
-![png](output_107_1.png)
+![png](images/output_107_1.png)
 
 
 
-![png](output_107_2.png)
+![png](images/output_107_2.png)
 
 
 
-![png](output_107_3.png)
+![png](images/output_107_3.png)
 
 
 
-![png](output_107_4.png)
+![png](images/output_107_4.png)
 
 
 
-![png](output_107_5.png)
+![png](images/output_107_5.png)
 
 
     ------------------------------------------------------------
@@ -1854,23 +1854,23 @@ history05 = fit_cnn_gen(cnn05, X_train, y_train, X_val, y_val, X_test, y_test,
     
 
 
-![png](output_115_1.png)
+![png](images/output_115_1.png)
 
 
 
-![png](output_115_2.png)
+![png](images/output_115_2.png)
 
 
 
-![png](output_115_3.png)
+![png](images/output_115_3.png)
 
 
 
-![png](output_115_4.png)
+![png](images/output_115_4.png)
 
 
 
-![png](output_115_5.png)
+![png](images/output_115_5.png)
 
 
     ------------------------------------------------------------
@@ -2151,23 +2151,23 @@ history08 = fit_cnn_gen(cnn08, X_train, y_train,
     
 
 
-![png](output_119_1.png)
+![png](images/output_119_1.png)
 
 
 
-![png](output_119_2.png)
+![png](images/output_119_2.png)
 
 
 
-![png](output_119_3.png)
+![png](images/output_119_3.png)
 
 
 
-![png](output_119_4.png)
+![png](images/output_119_4.png)
 
 
 
-![png](output_119_5.png)
+![png](images/output_119_5.png)
 
 
     ------------------------------------------------------------
@@ -2302,7 +2302,7 @@ best_model3.evaluate(X_test, y_test)
     
 
 
-![png](output_128_1.png)
+![png](images/output_128_1.png)
 
 
     16/16 [==============================] - 1s 32ms/step - loss: 0.2803 - acc: 0.9199 - precision: 0.9041 - recall: 0.9749
@@ -2380,7 +2380,7 @@ random_image(Xs_train, ys_train)
     
 
 
-![png](output_135_1.png)
+![png](images/output_135_1.png)
 
 
 
@@ -2565,23 +2565,23 @@ history_sm01 = fit_cnn_gen(cnn_small01, Xs_train, ys_train,
     
 
 
-![png](output_141_1.png)
+![png](images/output_141_1.png)
 
 
 
-![png](output_141_2.png)
+![png](images/output_141_2.png)
 
 
 
-![png](output_141_3.png)
+![png](images/output_141_3.png)
 
 
 
-![png](output_141_4.png)
+![png](images/output_141_4.png)
 
 
 
-![png](output_141_5.png)
+![png](images/output_141_5.png)
 
 
     ------------------------------------------------------------
@@ -2836,23 +2836,23 @@ history_sl = fit_cnn_gen(cnn_sl, Xs_train, ys_train,
     
 
 
-![png](output_145_1.png)
+![png](images/output_145_1.png)
 
 
 
-![png](output_145_2.png)
+![png](images/output_145_2.png)
 
 
 
-![png](output_145_3.png)
+![png](images/output_145_3.png)
 
 
 
-![png](output_145_4.png)
+![png](images/output_145_4.png)
 
 
 
-![png](output_145_5.png)
+![png](images/output_145_5.png)
 
 
     ------------------------------------------------------------
@@ -3067,23 +3067,23 @@ history_slp = fit_cnn_gen(cnn_slp, Xs_train, ys_train,
     
 
 
-![png](output_147_1.png)
+![png](images/output_147_1.png)
 
 
 
-![png](output_147_2.png)
+![png](images/output_147_2.png)
 
 
 
-![png](output_147_3.png)
+![png](images/output_147_3.png)
 
 
 
-![png](output_147_4.png)
+![png](images/output_147_4.png)
 
 
 
-![png](output_147_5.png)
+![png](images/output_147_5.png)
 
 
     ------------------------------------------------------------
@@ -3122,7 +3122,7 @@ best_sm_model1.evaluate(Xs_test, ys_test)
     
 
 
-![png](output_149_1.png)
+![png](images/output_149_1.png)
 
 
     16/16 [==============================] - 0s 4ms/step - loss: 0.2220 - acc: 0.9297 - precision: 0.9172 - recall: 0.9748
@@ -3159,7 +3159,7 @@ best_sm_model4.evaluate(Xs_test, ys_test)
     
 
 
-![png](output_150_1.png)
+![png](images/output_150_1.png)
 
 
     16/16 [==============================] - 0s 4ms/step - loss: 0.2344 - acc: 0.9258 - precision: 0.9321 - recall: 0.9497
@@ -3397,23 +3397,23 @@ history_sl = fit_cnn_gen(cnn_sl, Xs_train, ys_train,
     
 
 
-![png](output_156_1.png)
+![png](images/output_156_1.png)
 
 
 
-![png](output_156_2.png)
+![png](images/output_156_2.png)
 
 
 
-![png](output_156_3.png)
+![png](images/output_156_3.png)
 
 
 
-![png](output_156_4.png)
+![png](images/output_156_4.png)
 
 
 
-![png](output_156_5.png)
+![png](images/output_156_5.png)
 
 
     ------------------------------------------------------------
@@ -3705,23 +3705,23 @@ history_vgg = fit_cnn_gen(vgg_cnn, Xt_train, yt_train,
     
 
 
-![png](output_167_1.png)
+![png](images/output_167_1.png)
 
 
 
-![png](output_167_2.png)
+![png](images/output_167_2.png)
 
 
 
-![png](output_167_3.png)
+![png](images/output_167_3.png)
 
 
 
-![png](output_167_4.png)
+![png](images/output_167_4.png)
 
 
 
-![png](output_167_5.png)
+![png](images/output_167_5.png)
 
 
     ------------------------------------------------------------
@@ -3992,23 +3992,23 @@ history_dense = fit_cnn_gen(dense_cnn, Xt_train, yt_train,
     
 
 
-![png](output_176_1.png)
+![png](images/output_176_1.png)
 
 
 
-![png](output_176_2.png)
+![png](images/output_176_2.png)
 
 
 
-![png](output_176_3.png)
+![png](images/output_176_3.png)
 
 
 
-![png](output_176_4.png)
+![png](images/output_176_4.png)
 
 
 
-![png](output_176_5.png)
+![png](images/output_176_5.png)
 
 
     ------------------------------------------------------------
@@ -4065,7 +4065,7 @@ class_report(best_dense_model1, Xt_test, yt_test)
     
 
 
-![png](output_179_1.png)
+![png](images/output_179_1.png)
 
 
 Our transfer models seemed to get around the same accuracy as our custom models and converged quicker in terms of epochs. However, they took more time to train than our 64x64 models and take up a lot more space in our drive -- about 1GB for each model versus our 64x64 models which take up less than 10MB each. It seems that we are unable to get past 93% accuracy for any of our tests, which could indicate that we have reached the extent of our models' abilities to further differentiate between the classes. This may mean we should look for more ways to preprocess our images and/or find a larger dataset to train on.
